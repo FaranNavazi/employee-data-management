@@ -1,3 +1,4 @@
+
 var config = {
     apiKey: "AIzaSyD1v5SLU62aJ4JAI_PbNL--IDuwimsFw_k",
     authDomain: "employee-data-management-21fec.firebaseapp.com",
@@ -29,3 +30,25 @@ var config = {
   });
   
   })
+
+
+ function makeRow() {
+     return `
+    <tbody>
+    <tr>
+      <td>${employeeName}</td>
+      <td>${role}</td>
+      <td>${startDate}</td>
+      <td>${monthsWorked}</td>
+      <td>${rate}</td>
+      <td>${totalBilled}</td>
+    </tr>
+  </tbody>
+    `
+ }
+
+
+ $(`button`).click(function () {
+    
+ })
+
